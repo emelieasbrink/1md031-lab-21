@@ -1,1 +1,120 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Burgerx2000</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+     <header>
+     <h1>Welcome to BestBurgers Online</h1>
+     </header>
+
+       <main>
+         <section>
+     <h2>Select a burger</h2>
+
+     <p>This is where you select the burger you are in the mood for today.</p>
+
+     <div style="float:left;">
+       <h3>The Cheesy Burger</h3>
+       <img src="https://twisper.com/wp-content/uploads/2020/03/close-up-photo-of-burger-3915906-scaled.jpg"
+       alt="Burger with cheese and bacon" title="The cheesy burger" style="width: 200px;" >
+
+       <ul>
+         <li>2000 kCal</li>
+         <li>Three types of cheese (lactose)</li>
+         <li>Gluten free corn bun</li>
+       </ul>
+       </div>
+
+         <div style="float:left;">
+           <h3>The Chicken Dream</h3>
+           <img src="https://www.ilovecooking.ie/wp-content/uploads/2021/05/Korean-Style-Chicken-Burger-Final-Online-HR-3161-scaled-6.jpg"
+           alt="Chicken burger" title="The chicken dream" style="width: 200px;" >
+
+           <ul>
+             <li>Deep fried spicy chicken wings</li>
+             <li>Wheat bun (gluten)</li>
+             <li>Milk free</li>
+           </ul>
+           </div>
+
+             <div style="float:left;">
+               <h3>The NoMeat Burger</h3>
+               <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vegan-burger-2-1578931709.jpg"
+               alt="Vegan burger" title="The nomeat burger" style="width: 200px;">
+
+               <ul>
+                 <li>Burger made of beans</li>
+                 <li>Sweet potato bun (gluten free)</li>
+                 <li>Animal friendly (vegan)</li>
+               </ul>
+               </div>
+
+       </section>
+
+         <section>
+     <h2 style="clear:left;">Customer information</h2>
+     <p>This is where you provide neccessary information about yourself.</p>
+
+     <p>
+       <label for="fullname">Full name</label><br>
+       <input type="text" id="fullname" name="fn" required="required" placeholder="First- and lastname">
+       </p>
+
+       <p>
+       <label for="email">Email address</label><br>
+       <input type="email" id="email" name="em" placeholder="E-mail address">
+       </p>
+
+       <p>
+       <label for="street">Street</label><br>
+       <input type="text" id="street" name="sn" placeholder="Street name">
+       </p>
+
+       <p>
+       <label for="house">House</label><br>
+       <input type="number" id="house" name="hn" placeholder="House number">
+     </p>
+
+     <p>
+       <label for="payment"">Payment options</label><be>
+         <br><select id="payment" name="pmt">
+           <option selected="selected">Credit card</option>
+           <option>Swish</option>
+           <option>Paypal</option>
+           <option>Invoice</option>
+         </select>
+       </p>
+
+
+       <form>
+         <label for="female">Gender</label><br>
+         <input type="radio" id="female" name="ra" value="female">
+         <label for="female">Female</label><br>
+
+         <input type="radio" id="male" name="ra" value="male">
+         <label for="male">Male</label><br>
+
+         <input type="radio" id="nonbinary" name="ra" value="nonbinary">
+         <label for="nonbinary">Non-binary</label><br>
+
+         <input type="radio" id="undisclosed" name="ra" value="undisclosed" checked="checked">
+         <label for="undisclosed">Do not wish to provide</label><br>
+       </form>
+
+       </section>
+
+       <br><button type="submit">
+         <img src="https://thumbs.dreamstime.com/b/fast-burger-logo-running-background-white-eps-196319997.jpg"
+         style="width: 35px;">
+         Place my order
+       </button>
+
+       </main>
+
+         <footer>
+           </footer>
+
+   </body>
+</html>
