@@ -1,1 +1,67 @@
-/*empty*/
+@import 'https://fonts.googleapis.com/css?family=Average';
+body {
+   font-family: Average, sans-serif;
+   font-size: 14pt;
+}
+
+.ingredient {
+   font-weight: bold;
+}
+
+#selectburger{
+  border: 2px dotted black;
+  padding-right: 2em;
+  padding-bottom:2em;
+}
+
+#customerinfo {
+  background-color: black;
+  color: white;
+  border: 2px dotted white;
+  padding-bottom: 1em;
+}
+
+button:hover {
+   background-color: LightGreen;
+   cursor: pointer;
+}
+
+section {
+  margin: 2em;
+  padding-left: 2em;
+  }
+
+button{
+  margin-left: 1em;
+  margin-bottom: 1em;
+  }
+
+div{
+  padding: 1em;
+  }
+
+  .wrapper {
+       display: grid;
+       grid-gap: 10px;
+       grid-template-columns: 350px 350px 350px;
+       border-style: double;
+   }
+
+   header {
+     margin: 2em;
+     overflow:hidden;
+     height: 12em;
+   }
+
+   header img {
+     opacity: 0.4;
+     width: 100%;
+     height: auto;
+   }
+
+   header h1 {
+     position: absolute;
+     padding: 1.5em;
+     padding-left:10em;
+     margin-top: -60%;
+   }
