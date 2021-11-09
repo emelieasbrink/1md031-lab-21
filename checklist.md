@@ -26,3 +26,14 @@ Your index.html file contains:
     - [done] Gender (male, female, do not wish to provide as radio buttons)
 - [done] A button to place the order
 - [done] Ensure the website loads when opening http://localhost:8080/
+
+## 03 CSS
+
+The style.css file contains:
+- [done] A rule to make the allergy information bold
+- [done] Different text and background color for the two different sections (burger selection and customer information)
+- [done] Change the cursor when hovering over the order button
+- [done] Adds margins to the sections and the order button
+- [done] Add a border to the two sections
+- [done] Create a header that places an image behind the headline
+- [done] Use a grid layout for the burger selection section
