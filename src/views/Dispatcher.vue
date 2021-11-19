@@ -1,8 +1,16 @@
 <template>
   <div id="orders">
     <div id="orderList">
-      <div v-for="(order, key) in orders" v-bind:key="'order'+key">
-        #{{ key }}: {{ order.orderItems.join(", ") }}
+      <div v-for="(order, key) in orders" v-bind:key="'order' + key">
+        #{{ key }}:
+        <div v-for="(value, name) in order.orderItems" v-bind:key="name">
+          <span v-if="value > 0">
+            {{ value + ' of '}} {{ name }}
+          </span>
+        </div>
+        <span class="kursiv"> {{order.customerInfo.fn}} {{' (' + order.customerInfo.em+ ', '}}
+          {{order.customerInfo.gend + ', '}} {{order.customerInfo.pay + ')'}}</span>
+          <hr>
       </div>
       <button v-on:click="clearQueue">Clear Queue</button>
     </div>
@@ -36,6 +44,10 @@ export default {
 }
 </script>
 <style>
+.kursiv{
+  font-style: italic;
+}
+
 #orderList {
   top:1em;
   left:1em;
