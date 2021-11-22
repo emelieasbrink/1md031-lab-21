@@ -1,0 +1,27 @@
+
+[
+  {
+    "name": "The Cheesy Burger",
+    "kCal": 2000,
+    "lactose": true,
+    "gluten": false,
+    "url": "https://twisper.com/wp-content/uploads/2020/03/close-up-photo-of-burger-3915906-scaled.jpg"
+  },
+
+  {
+    "name": "The Chicken Dream",
+    "kCal": 700,
+    "lactose": true,
+    "gluten": false,
+    "url": "https://www.ilovecooking.ie/wp-content/uploads/2021/05/Korean-Style-Chicken-Burger-Final-Online-HR-3161-scaled-6.jpg"
+  },
+
+  {
+    "name": "The NoMeat Burger",
+    "kCal": 500,
+    "lactose": false,
+    "gluten": true,
+    "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vegan-burger-2-1578931709.jpg"
+  }
+
+]
