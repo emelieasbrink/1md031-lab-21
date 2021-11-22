@@ -53,7 +53,7 @@ Your Burger.vue component:
 - [done] ... only displays allergy information if relevant (either only if it contains gluten or lactose, or only if it's gluten or lactose free)
 
 Your Dispatcher.vue file:
-- [ ] ... shows for every order :
+- [done] ... shows for every order :
     - [done] a location on the map
     - [done] the order information
     - [done] the customer information
